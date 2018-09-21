@@ -1,0 +1,22 @@
+{
+  "name": "surplus-rollup-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "rollup -c -w"
+  },
+  "devDependencies": {
+    "rollup": "^0.66.1",
+    "rollup-plugin-commonjs": "^9.1.8",
+    "rollup-plugin-fill-html": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-surplus": "^0.5.0",
+    "rollup-plugin-terser": "^3.0.0"
+  },
+  "dependencies": {
+    "s-array": "^0.4.10",
+    "s-js": "^0.4.9",
+    "surplus": "^0.5.3"
+  }
+}
